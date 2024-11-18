@@ -1,0 +1,135 @@
+/*a{
+    text-decoration: underline;
+    font-size:20px
+    
+}
+a:hover{
+    color:rgb(251, 255, 0);
+
+}
+a:active{
+    font-size:30px;
+    font: weight 0.5%;;
+    text-decoration: ;
+
+}
+a:visited{
+color:aqua;
+}
+a:focus{
+    font-style:italic;
+    font-display:;
+
+}
+*/
+
+a:hover{
+    color: rgba(255, 0,0, 0.2);
+    color:black;
+
+
+}
+a:visited{
+   font-style: oblique;
+}
+a:active{
+    font-size:20px;
+}
+
+
+.btn{
+    text-decoration:none;
+    background-color:  red;
+    color: aliceblue;
+    border-radius:10px;
+    font-size: 15px;
+    border: 2px solid red;
+    padding:10px 25px;
+    display: inline-block;
+}
+.bottom{
+    text-decoration: none;
+    font-size:smaller;
+    font-family: sans-serif;
+    background-color: rgba(4, 128, 0, 0.527);
+    border:2px solid red;
+    padding:10px 10px;
+    border-radius:20px;
+    display: inline-block;
+    color: #fff;
+
+}
+a.bottom.hover{
+    color:#fff;
+
+}a.bottom.active{
+    font-size:20px;
+    display: inline-block;
+}
+a.bottom.focus{
+    font-weight: 200;
+    font-variant:normal;
+}
+
+    
+ul{
+    text-transform: capitalize;
+    list-style-type: square;
+    list-style-type: circle;
+    list-style-type: decimal;
+    list-style-type: upper-roman;
+ 
+
+    list-style-position: inside;
+    background-color: tomato;
+
+    padding: 5px;
+  
+}
+li{
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.562);
+    border-bottom: 1px solid tomato;
+    
+
+}
+h1{
+    border: solid black;
+    font-size: 15px;
+    background-color: aquamarine;
+}
+th,
+td,
+table{
+    border: 1px solid tomato;
+    border-collapse:  collapse;
+    padding:5px 10px;
+    font-family: sans-serif;
+  
+}
+th{
+    font-size:smaller;
+    text-align: left;
+    height: 20px; 
+    background-color: blueviolet;
+  
+    color: #fff;
+    font-weight: 5px;
+
+}
+td{
+    background-color: aquamarine;
+    
+    text-align: center;
+}
+th:hover,thead{
+  background-color:blue;
+}
+td:hover{
+    background-color: rgba(0, 128, 0, 0.562);
+}
+div{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+}
